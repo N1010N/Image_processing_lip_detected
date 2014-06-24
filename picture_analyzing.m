@@ -9,7 +9,7 @@ for iFile = 1:numel(fileNames)  %# Loop over the file names
   movefile(fileNames{iFile},newName);        %# Rename the file
 end
 %}
-for k=4:4   
+for k=1:43   
 
 face=imread(sprintf('Image %d.jpg',k));
 %imwrite(face,sprintf('Image %d.jpg',k));
